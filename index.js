@@ -20,10 +20,11 @@ class Task {
     }
 
     done() {
-        setTimeout(() => {
-        if(this._next)
-            this._next.start();
-        }, this._T);
+        if(this._next) {
+            setTimeout(() => {
+                this._next.start();
+            }, this._next._T);
+        }
     }
     
 }
