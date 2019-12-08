@@ -21,3 +21,7 @@ task 1 // when t = 0
 task 2 // when t = 500 ms
 task 3 // when t = 700 ms
 ```
+
+**License**
+
+MIT
